@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 900;
+}
+
+main{
+  position: relative;
+  z-index: 999;
+  padding-top: 100vh;
+}
+
+section{
+  height: 100vh;
+}
+h1, h2{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+  font-size: 8em;
+  text-align: left;
+}
